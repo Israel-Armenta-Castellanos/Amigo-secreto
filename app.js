@@ -1,4 +1,3 @@
-// El principal objetivo de este desafío es fortalecer tus habilidades en lógica de programación. Aquí deberás desarrollar la lógica para resolver el problema.
 let amigos = [];  // Lista vacía
 console.log(amigos);
 
@@ -31,4 +30,12 @@ function sortearAmigo() {
     let indiceAleatorio = Math.floor(Math.random() * amigos.length);
     let amigoSorteado = amigos[indiceAleatorio];
     document.getElementById("resultado").innerHTML = `🎉 Tu amigo secreto es: ${amigoSorteado}`;
+    setTimeout(reiniciarJuego, 7000); // llama a la funcion "reiniciarJuego" después de 7 segundos una vez que se haya sorteado el amigo secreto
+}
+
+function reiniciarJuego() {
+    amigos = [];
+    document.getElementById("listaAmigos").innerHTML = "";
+    document.getElementById("resultado").innerHTML = "";
+    alert("El juego se ha reiniciado.");
 }
