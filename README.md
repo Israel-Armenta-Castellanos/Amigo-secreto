@@ -19,7 +19,7 @@
 - Muestra el amigo seleccionado en la página.  
 
 ## 🚀 Prueba el proyecto  
-🔗 [Ver demo en vivo](#) https://israel-armenta-castellanos.github.io/Amigo-secreto/
+https://israel-armenta-castellanos.github.io/Amigo-secreto/
 
 ## 🛠 Tecnologías utilizadas  
 - **JavaScript (DOM)**  
